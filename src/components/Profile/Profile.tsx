@@ -6,7 +6,7 @@ const Profile = () => {
   return (
     <>
       <div className="w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <div className="mt-[-2%] text-gray-200 fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
+        <div className="mt-[-2.5%] text-gray-200 fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             target="_blank"
@@ -37,7 +37,7 @@ const Profile = () => {
           </a>
         </div>
 
-        <div className="mt-[-2%] text-gray-200 fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
+        <div className="mt-[-2.5%] text-gray-200 fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             target="_blank"
@@ -54,13 +54,13 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="mt-[-1%] border rounded-full border-gray-600 shadow-2xl ">
+      <div className="mt-[-1.5%] border rounded-full border-gray-600 shadow-2xl ">
         <Image
           className=""
           src="/myImage.jpg"
           alt="Next.js Logo"
-          width={200}
-          height={200}
+          width={180}
+          height={180}
         />
       </div>
       <div className=" items-center justify-center self-center content-center text-center">
