@@ -3,7 +3,7 @@ import React from 'react'
 const Links = () => {
   return (
     <>
-    <div className="px-48 text-white mb-5 mt-10 grid grid-cols-4 gap-24 text-center">
+    <div className="text-white mb-5 mt-10 grid grid-cols-4 gap-16 text-center">
         <a
           href="https://www.linkedin.com/in/coliveramispireta"
           target="_blank"
