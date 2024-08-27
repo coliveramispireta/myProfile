@@ -5,7 +5,7 @@ import NextImage from "../../../public/next.svg";
 const Profile = () => {
   return (
     <>
-      <div className="w-full max-w-5xl items-center justify-between font-mono text-sm flex">
+      <div className="w-full mt-[-7%] md:mt-0 max-w-5xl items-center justify-between font-mono text-sm flex">
         <div className="mt-[-2.5%] text-gray-200 static size-auto bg-none ">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"

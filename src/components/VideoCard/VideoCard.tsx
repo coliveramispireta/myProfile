@@ -14,8 +14,27 @@ const VideoCard = () => {
   }, []);
 
   return (
-    <div className="max-w-3xl mb-28 md:mb-0 mt-4  bg-gray-800 shadow-2xl rounded-lg overflow-hidden flex opacity-50 hover:opacity-100">
-      <div className="w-2/3">
+    <>
+    <div className='block md:hidden lg:hidden mt-8'>
+
+      <h3 className="text-xl font-semibold text-gray-300 ">Proyecto Henry</h3>
+      <p className="mt-2 text-gray-400 text-center">
+        Aplicación web full stack: demostrando habilidades adquiridas - Next.js, TypeScript, y Tailwind.
+        </p>
+        <div className='block md:hidden lg:hidden text-right'>
+        <a
+          className="inline-block mt-4 text-blue-400 font-semibold text-right"
+          href="https://www.youtube.com/watch?v=L0moE2LJ9AA"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          Ver Ahora
+        </a>
+            </div>
+          </div>
+
+    <div className=" justify-center max-w-3xl mb-28 md:mb-0 mt-4  bg-gray-800 shadow-2xl rounded-lg overflow-hidden flex opacity-50 hover:opacity-100">
+      <div className="w-3/3 md:w-2/3">
         {playVideo ? (
           <iframe
             width="100%"
@@ -27,13 +46,16 @@ const VideoCard = () => {
           ></iframe>
         ) : (
           <img
-            className="w-full h-full"
-            src="/Proyect.PNG"
-            alt="Video Thumbnail"
+          className="w-full h-full"
+          src="/Proyect.PNG"
+          alt="Video Thumbnail"
           />
         )}
       </div>
-      <div className="w-1/3 p-4">
+
+    
+
+      <div className="md:w-1/3  p-4 hidden md:block">
         <h3 className="text-xl font-semibold text-gray-500 ">Proyecto Henry</h3>
         <p className="mt-2 text-gray-600">
         Aplicación web full stack: demostrando habilidades adquiridas - Next.js, TypeScript, y Tailwind.
@@ -43,11 +65,12 @@ const VideoCard = () => {
           href="https://www.youtube.com/watch?v=L0moE2LJ9AA"
           target="_blank"
           rel="noopener noreferrer"
-        >
+          >
           Ver Ahora
         </a>
       </div>
     </div>
+          </>
   );
 };
 
