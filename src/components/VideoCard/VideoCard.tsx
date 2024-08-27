@@ -14,7 +14,7 @@ const VideoCard = () => {
   }, []);
 
   return (
-    <div className="max-w-3xl mt-8 mx-auto bg-gray-800 shadow-2xl rounded-lg overflow-hidden flex opacity-50 hover:opacity-100">
+    <div className="max-w-3xl mb-28 md:mb-0 mt-4  bg-gray-800 shadow-2xl rounded-lg overflow-hidden flex opacity-50 hover:opacity-100">
       <div className="w-2/3">
         {playVideo ? (
           <iframe

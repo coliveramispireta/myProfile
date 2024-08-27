@@ -3,12 +3,12 @@ import React from 'react'
 const Links = () => {
   return (
     <>
-    <div className="text-white mb-5 mt-10 grid grid-cols-4 gap-16 text-center">
+    <div className="fixed lg:static bg-gray-900 lg:bg-transparent w-full lg:w-auto h-20 items-center justify-items-center md:static bottom-0 text-white  mt-10 grid grid-cols-4 gap-16 text-center">
         <a
           href="https://www.linkedin.com/in/coliveramispireta"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block transform transition-transform duration-300 hover:scale-110"
+          className="inline-block transform transition-transform duration-300 hover:scale-110 snap-center"
         >
           <svg
             fill="#ffffff"

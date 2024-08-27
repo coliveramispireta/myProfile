@@ -63,11 +63,11 @@ const Profile = () => {
           height={180}
         />
       </div>
-      <div className=" items-center justify-center self-center content-center text-center">
-        <h1 className="text-white font-mono sm: text-[250%] md:text-[300%] lg:text-[400%]">
+      <div className="mb-8  lg:mb-0 items-center justify-center self-center content-center text-center">
+        <h1 className="text-white font-mono text-[185%] md:text-[300%] lg:text-[400%]">
           Carlos Manuel Olivera Mispireta
         </h1>
-        <h1 className="text-green-400 font-mono sha  text-3xl">
+        <h1 className="text-green-400 font-mono sha  text-xl lg:text-3xl">
           Developer Frontend
         </h1>
       </div>
