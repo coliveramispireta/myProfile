@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Links = () => {
+const Footer = () => {
   return (
     <>
     <div className="fixed lg:static bg-gray-900 lg:bg-transparent w-full lg:w-auto h-20 items-center justify-items-center md:static bottom-0 text-white  mt-10 grid grid-cols-4 gap-16 text-center">
@@ -87,4 +87,4 @@ const Links = () => {
   )
 }
 
-export default Links
+export default Footer

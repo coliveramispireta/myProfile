@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 
-const VideoCard = () => {
+const Proyects = () => {
   const [playVideo, setPlayVideo] = useState(false);
 
   useEffect(() => {
@@ -74,4 +74,4 @@ const VideoCard = () => {
   );
 };
 
-export default VideoCard;
+export default Proyects;
